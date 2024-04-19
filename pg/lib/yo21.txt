@@ -15,7 +15,7 @@ TVBS NEWS LIVE, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.
 民視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10071&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
 華視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10071&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
 中視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10071&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
-台視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10071&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+台視新聞, http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=https://www.youtube.com/watch?v=xL0ch83RAK8
 
 EBC東森財經, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10071&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
 三立財經, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10071&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
