@@ -1,11 +1,11 @@
 {
 	"log": {
-		"loglevel": "debug"
+		"loglevel": "warn"
 	},
 	"dns": {
 		"disableFallbackIfMatch": true,
 		"hosts": {},
-		"queryStrategy": "UseIP",
+		"queryStrategy": "UseIPv4",
 		"servers": [
 			{
 				"address": "tcp://1.1.1.1",
@@ -62,7 +62,7 @@
 					"2606:4700:110:893c:845c:536b:5565:8106/128"
 				],
 				"kernelMode": false,
-				"worker": 16
+				"worker": 30
 			},
 			"protocol": "wireguard",
 			"streamSettings": {
@@ -105,11 +105,7 @@
 					"path": "/?ed=2048"
 				}
 			},
-			"tag": "vlesscf",
-			"proxySettings": {
-				"tag": "directfragment",
-				"transportLayer": true
-			}
+			"tag": "vlesscf"
 		},
 		{
 			"protocol": "vless",
@@ -153,10 +149,10 @@
 			"settings": {
 				"servers": [
 					{
-						"address": "gyhk.niceink.cc",
-						"method": "aes-128-gcm",
-						"password": "24b1468c-e5c5-4fc9-95da-1c33df736586",
-						"port": 32152
+						"address": "120.232.63.132",
+						"method": "2022-blake3-aes-256-gcm",
+						"password": "ZGFhNTBjOTYzMzgxMzUxMzM0NDI2ZjQ5ZjcxNzJhY2E=:M2ViZjc3YzYtZmU4My00MTdkLWJiMGItNmRhY2M2ZGY=",
+						"port": 34466
 					}
 				]
 			},
@@ -169,17 +165,6 @@
 		{
 			"protocol": "freedom",
 			"tag": "direct"
-		},
-		{
-			"protocol": "freedom",
-			"settings": {
-				"fragment": {
-					"packets": "tlshello",
-					"length": "40-60",
-					"interval": "30-50"
-				}
-			},
-			"tag": "directfragment"
 		}
 	],
 	"inbounds": [
@@ -293,7 +278,7 @@
 		}
 	],
 	"routing": {
-		"domainStrategy": "AsIs",
+		"domainStrategy": "IPOnDemand",
 		"rules": [
 			{
 				"type": "field",
