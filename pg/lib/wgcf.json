@@ -148,29 +148,23 @@
 				"transportLayer": true
 			}
 		},
-		{
-			"tag": "ss-out",
-			"protocol": "shadowsocks",
-			"settings": {
-			  "servers": [
-				{
-				  "address": "gyhk.niceink.cc",
-				  "method": "aes-128-gcm",
-				  "ota": false,
-				  "password": "24b1468c-e5c5-4fc9-95da-1c33df736586",
-				  "port": 32152,
-				  "level": 1
-				}
-			  ]
-			},
-			"streamSettings": {
-			  "network": "tcp"
-			},
-			"mux": {
-			  "enabled": false,
-			  "concurrency": -1
-			}
-		  },
+		{"protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "gyhk.niceink.cc",
+            "method": "aes-128-gcm",
+            "password": "24b1468c-e5c5-4fc9-95da-1c33df736586",
+            "port": 32152
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "ss-out"
+      },
 		{
 			"protocol": "freedom",
 			"tag": "direct"
@@ -342,7 +336,7 @@
 					"socks5overvlessoverwarp"
 				],
 				"outboundTag": "vlesscfoverwarp"
-			}
+			},
 			{
 				"type": "field",
 				"inboundTag": [
