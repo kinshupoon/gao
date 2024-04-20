@@ -149,10 +149,10 @@
 			"settings": {
 				"servers": [
 					{
-						"address": "120.232.63.132",
-						"method": "2022-blake3-aes-256-gcm",
-						"password": "ZGFhNTBjOTYzMzgxMzUxMzM0NDI2ZjQ5ZjcxNzJhY2E=:M2ViZjc3YzYtZmU4My00MTdkLWJiMGItNmRhY2M2ZGY=",
-						"port": 34466
+						"address": "www.dtku44.xyz",
+						"method": "aes-128-gcm",
+						"password": "24b1468c-e5c5-4fc9-95da-1c33df736586",
+						"port": 32152
 					}
 				]
 			},
