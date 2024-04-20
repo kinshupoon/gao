@@ -149,7 +149,7 @@
 			"settings": {
 				"servers": [
 					{
-						"address": "www.dtku44.xyz",
+						"address": "183.240.221.234",
 						"method": "aes-128-gcm",
 						"password": "24b1468c-e5c5-4fc9-95da-1c33df736586",
 						"port": 32152
