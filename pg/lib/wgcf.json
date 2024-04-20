@@ -148,23 +148,6 @@
 				"transportLayer": true
 			}
 		},
-		{"protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "gyhk.niceink.cc",
-            "method": "aes-128-gcm",
-            "password": "24b1468c-e5c5-4fc9-95da-1c33df736586",
-            "port": 32152
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": ""
-      },
-      "tag": "ss-out"
-      },
 		{
 			"protocol": "freedom",
 			"tag": "direct"
@@ -272,24 +255,6 @@
 				"enabled": true,
 				"routeOnly": true
 			}
-		},
-		{
-			"port": 10075,
-			"protocol": "socks",
-			"settings": {
-				"udp": true,
-				"auth": "noauth"
-			},
-			"tag":"ss-in",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
 		}
 	],
 	"routing": {
@@ -336,14 +301,7 @@
 					"socks5overvlessoverwarp"
 				],
 				"outboundTag": "vlesscfoverwarp"
-			},
-			{
-				"type": "field",
-				"inboundTag": [
-					"ss-in"
-				],
-				"outboundTag": "ss-out"
 			}
 		]
 	}
-			}
+}
