@@ -149,22 +149,27 @@
             }
         },
         {
+            "tag": "ss-out",
             "protocol": "shadowsocks",
             "settings": {
                 "servers": [
                     {
-                        "address": "118.167.8.34",
+                        "address": "www.dtku44.xyz",
                         "method": "2022-blake3-aes-256-gcm",
+                        "ota": false,
                         "password": "oats+7vdaSOb4NsxWwCBQll4qTwPu/dhpegiIGnqd9c=",
-                        "port": 22335
+                        "port": 22335,
+                        "level": 1
                     }
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "security": ""
+                "network": "tcp"
             },
-            "tag": "ss-out"
+            "mux": {
+                "enabled": false,
+                "concurrency": -1
+            }
         },
         {
             "protocol": "freedom",
@@ -275,6 +280,7 @@
         },
         {
             "port": 10075,
+            "listen": "0.0.0.0",
             "protocol": "socks",
             "settings": {
                 "udp": true,
@@ -340,10 +346,10 @@
             {
                 "type": "field",
                 "inboundTag": [
-                 "ss-in"
+                    "ss-in"
                 ],
                 "outboundTag": "ss-out"
-               }
+            }
         ]
     }
 }
