@@ -29,7 +29,7 @@
 				"peers": [
 					{
 						"publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-						"endpoint": "engage.cloudflareclient.com:2408",
+						"endpoint" : "engage.cloudflareclient.com:2408",
 						"keepAlive": 30
 					}
 				],
@@ -38,13 +38,13 @@
 					"2606:4700:110:893c:845c:536b:5565:8106/128"
 				],
 				"kernelMode": false,
-				"worker": 16
+				"worker":16
 			},
 			"protocol": "wireguard",
 			"streamSettings": {
 				"network": "tcp"
 			},
-			"tag": "directwarp"
+			"tag":"directwarp"
 		},
 		{
 			"settings": {
@@ -53,7 +53,7 @@
 				"peers": [
 					{
 						"publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-						"endpoint": "engage.cloudflareclient.com:2408",
+						"endpoint" : "engage.cloudflareclient.com:2408",
 						"keepAlive": 30
 					}
 				],
@@ -62,13 +62,13 @@
 					"2606:4700:110:893c:845c:536b:5565:8106/128"
 				],
 				"kernelMode": false,
-				"worker": 16
+				"worker":16
 			},
 			"protocol": "wireguard",
 			"streamSettings": {
 				"network": "tcp"
 			},
-			"tag": "warpoverwarp",
+			"tag":"warpoverwarp",
 			"proxySettings": {
 				"tag": "directwarp",
 				"transportLayer": true
@@ -85,7 +85,7 @@
 							{
 								"id": "VLESSID",
 								"encryption": "none",
-								"level": 0
+								"level":0
 							}
 						]
 					}
@@ -105,7 +105,7 @@
 					"path": "/?ed=2048"
 				}
 			},
-			"tag": "vlesscf",
+			"tag":"vlesscf",
 			"proxySettings": {
 				"tag": "directfragment",
 				"transportLayer": true
@@ -122,7 +122,7 @@
 							{
 								"id": "VLESSID",
 								"encryption": "none",
-								"level": 0
+								"level":0
 							}
 						]
 					}
@@ -142,87 +142,10 @@
 					"path": "/?ed=2048"
 				}
 			},
-			"tag": "vlesscfoverwarp",
+			"tag":"vlesscfoverwarp",
 			"proxySettings": {
 				"tag": "directwarp",
 				"transportLayer": true
-			}
-		},
-		{
-			"tag": "ss-out",
-			"protocol": "shadowsocks",
-			"settings": {
-				"servers": [
-					{
-						"address": "118.167.10.66",
-						"method": "2022-blake3-aes-256-gcm",
-						"ota": false,
-						"password": "oats+7vdaSOb4NsxWwCBQll4qTwPu/dhpegiIGnqd9c=",
-						"port": 22335,
-						"level": 1
-					}
-				]
-			},
-			"streamSettings": {
-				"network": "tcp"
-			},
-			"mux": {
-				"enabled": false,
-				"concurrency": -1
-			}
-		},
-		{
-			"tag": "vmesscf",
-			"protocol": "vmess",
-			"settings": {
-				"vnext": [
-					{
-						"address": "167.88.184.116",
-						"port": 55555,
-						"users": [
-							{
-								"id": "14aeb682-24ca-4933-d5fe-026f8b096b67",
-								"alterId": 0,
-								"email": "t@t.tt",
-								"security": "auto"
-							}
-						]
-					}
-				]
-			},
-			"streamSettings": {
-				"network": "tcp",
-				"tcpSettings": {
-					"header": {
-						"type": "http",
-						"request": {
-							"version": "1.1",
-							"method": "GET",
-							"path": [
-								"/"
-							],
-							"headers": {
-								"Host": [
-									""
-								],
-								"User-Agent": [
-									""
-								],
-								"Accept-Encoding": [
-									"gzip, deflate"
-								],
-								"Connection": [
-									"keep-alive"
-								],
-								"Pragma": "no-cache"
-							}
-						}
-					}
-				}
-			},
-			"mux": {
-				"enabled": false,
-				"concurrency": -1
 			}
 		},
 		{
@@ -231,7 +154,7 @@
 		},
 		{
 			"protocol": "freedom",
-			"settings": {
+			"settings":{
 				"fragment": {
 					"packets": "tlshello",
 					"length": "40-60",
@@ -240,8 +163,9 @@
 			},
 			"tag": "directfragment"
 		}
-	],
-	"inbounds": [
+	]
+	,
+	"inbounds":[ 
 		{
 			"listen": "0.0.0.0",
 			"port": 10070,
@@ -267,7 +191,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag": "socks5",
+			"tag":"socks5",
 			"sniffing": {
 				"destOverride": [
 					"http",
@@ -285,7 +209,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag": "socks5overvless",
+			"tag":"socks5overvless",
 			"sniffing": {
 				"destOverride": [
 					"http",
@@ -303,7 +227,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag": "socks5overwarpoverwarp",
+			"tag":"socks5overwarpoverwarp",
 			"sniffing": {
 				"destOverride": [
 					"http",
@@ -321,45 +245,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag": "socks5overvlessoverwarp",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
-		},
-		{
-			"port": 10075,
-			"listen": "0.0.0.0",
-			"protocol": "socks",
-			"settings": {
-				"udp": true,
-				"auth": "noauth"
-			},
-			"tag": "ss-in",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
-		},
-		{
-			"port": 10076,
-			"listen": "0.0.0.0",
-			"protocol": "socks",
-			"settings": {
-				"udp": true,
-				"auth": "noauth"
-			},
-			"tag": "socks5overvmess",
+			"tag":"socks5overvlessoverwarp",
 			"sniffing": {
 				"destOverride": [
 					"http",
@@ -415,20 +301,6 @@
 					"socks5overvlessoverwarp"
 				],
 				"outboundTag": "vlesscfoverwarp"
-			},
-			{
-				"type": "field",
-				"inboundTag": [
-					"ss-in"
-				],
-				"outboundTag": "ss-out"
-			},
-			{
-				"type": "field",
-				"inboundTag": [
-					"socks5overvmess"
-				],
-				"outboundTag": "vmesscf"
 			}
 		]
 	}
