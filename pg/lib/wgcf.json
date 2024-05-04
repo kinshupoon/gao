@@ -231,7 +231,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "www.pcmag.com",
+                        "address": "104.17.176.159",
                         "port": 80,
                         "users": [
                             {
