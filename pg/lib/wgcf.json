@@ -3,11 +3,24 @@
         "loglevel": "debug"
     },
     "dns": {
+        "disableFallbackIfMatch": true,
+        "hosts": {},
+        "queryStrategy": "UseIP",
         "servers": [
-          "1.1.1.1",
-          "8.8.8.8"
+            {
+                "address": "tcp://1.1.1.1",
+                "concurrency": true
+            },
+            {
+                "address": "tcp+local://223.5.5.5:53",
+                "concurrency": true,
+                "domains": [
+                    "full:cdn-all.xn--b6gac.eu.org"
+                ],
+                "skipFallback": true
+            }
         ]
-      },
+    },
     "outbounds": [
         {
             "settings": {
