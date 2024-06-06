@@ -20,6 +20,23 @@
 			"changeable": 0,
 			"ext":"./lib/tokenm.json"
 		},
+		{
+                        "key":"Youtube",
+                        "name":"Youtube",
+                        "type":3,
+                        "api": "csp_Youtube",
+                        "searchable": 1,
+                        "quickSearch": 0,
+                        "changeable": 0,
+                        "ext":{
+                                "type":"全部#音樂#劇集#電影#直播中#美亞影院#露營#衛詩雅#許靖韻",
+                                "proxy":"127.0.0.1:10071"
+                        },
+                        "style": {
+                                "type": "rect",
+                                "ratio": 1.5
+                        }
+                },
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
 			"style": {
