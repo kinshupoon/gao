@@ -59,8 +59,8 @@
 "wgcf_vless_tls":,
 "libxl_url":"",
 "youtube_proxy":"proxy",
-"singbox_url":"https://live.hipjs.cloudns.org/pg/lib/sing-box.gz",
+"singbox_url":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/sing-box.gz",
 "singbox_subscribe_url":"https://www.lingh.cfd/api/v1/client/subscribe?token=59ac79571b9528baa1f5f0ff974f4245",
-"singbox_clash2singbox_url":"https://live.hipjs.cloudns.org/pg/lib/clash2singbox.gz",
-"singbox_template_url":"https://live.hipjs.cloudns.org/pg/lib/singbox.json"
+"singbox_clash2singbox_url":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/clash2singbox.gz",
+"singbox_template_url":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/singbox.json"
 }
