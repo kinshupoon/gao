@@ -11,16 +11,16 @@
 			"changeable": 0,
 			"timeout": 60,
 			"ext":{
-				"token":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
-				"json":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/youtube.json",
-				"type": "音樂#劇集#電影#直播#美亞影院#歡樂APM#冤枉娛樂#@eegmusichk#衛詩雅#許靖韻#TVB Drama#@liuweiyuan",
-				"keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧",
+				"token":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
+				"json":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
 				"codecs":"",
 				"proxy":"proxy"
 			},
 			"style": {
-				"type": "list",
-				"ratio": 1.1
+				"type": "rect",
+				"ratio": 1.77
 			}
 		},
 		{
@@ -31,7 +31,7 @@
 			"searchable": 0,
 			"changeable": 1,
 			"indexs":1,
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/douban.json"
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/douban.json"
 		},
 		{
 			"key": "网盘配置",
@@ -40,57 +40,57 @@
 			"api": "csp_Config",
 			"searchable": 0,
 			"changeable": 0,
-			"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
+			"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
 			}
 		},
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
-		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/pushshare.txt$$$db$$$1",
+		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/pushshare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"AliShare","name":"阿里云盘影视分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/alishare.txt$$$db$$$1",
+		{"key":"AliShare","name":"阿里云盘影视分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/alishare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"AliShareEBook","name":"阿里云盘书籍分享","type":3,"api":"csp_AliShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/alishare.ebook.txt$$$db$$$1",
+		{"key":"AliShareEBook","name":"阿里云盘书籍分享","type":3,"api":"csp_AliShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/alishare.ebook.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/quarkshare.txt",
+		{"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/quarkshare.txt",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/thundershare.txt",
+		{"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/thundershare.txt",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/pikpakclass.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/pikpakclass.json.txt.gz",
+		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/pikpakclass.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/pikpakclass.json.txt.gz",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/sambashare.txt"},
+		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/sambashare.txt"},
 		{
 			"key": "直播转点播",
 			"name": "🐼️┃电视┃直播",
 			"type": 3,
 			"searchable": 0,
-			"api": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/live2vod.js",
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/feimaolive.json"
+			"api": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/live2vod.js",
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/feimaolive.json"
 		},
 		{
 			"key": "FirstAid",
@@ -105,7 +105,7 @@
 				"ratio": 3.8
 			}
 		},
-		{"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
+		{"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
 			"indexs":1
 		},
 		{
@@ -121,33 +121,33 @@
 				"cookie":""
 			}
 		},
-		{"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.meijumi.nehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1"},
-		{"key":"Libvio","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.libvio.fuhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$null"},
-		{"key":"Bt0","name":"不太灵|磁力","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$null$$$noproxy$$$1",
+		{"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
+		{"key":"Libvio","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.libvio.fun/$$$null"},
+		{"key":"Bt0","name":"不太灵|磁力","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$null$$$noproxy$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"Xpanpan","name":"小盘盘|网盘","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//xpanpan.site$$$proxy$$$1",
+		{"key":"Xpanpan","name":"小盘盘|网盘","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://xpanpan.site$$$proxy$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"Wogg","name":"玩偶哥哥|网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//wogg.linhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$noproxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/wogg.json"},
-		{"key":"Wo4k","name":"玩偶4K|磁力","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.wo4k.nehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/wogg.json"},
-		{"key":"Wobg","name":"玩偶表哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//wobge.run.goorm.io$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/wogg.json"},
-		{"key":"yydsys","name":"玩你老哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//tv.yydsys.tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/wogg.json"},
-		{"key":"Gaoqing","name":"中国高清网|网盘","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//gaoqing.lhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1"},
-		{"key":"Yinfans","name":"音范丝|磁力","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.yinfans.mhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1"},
-		{"key":"ddys","name":"低端影视|网盘","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//ddys.prhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1$$$"},
-		{"key":"Xinshijue","name":"新视觉|网盘","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.80yy3.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$noproxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/wogg.json"},
-		{"key":"团长资源","name":"团长资源|网盘","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$noproxy$$$1"},
-		{"key":"Moli","name":"HDmoli|网盘","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.hdmoli.prhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/moli.json"},
-		{"key":"Hdhive","name":"影巢|网盘","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$proxy$$$1"},
-		{"key":"Ppxzy","name":"皮皮虾|网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//ppxzy.ink$$$proxy$$$1"},
-		{"key":"校长影视","name":"校长影视|网盘","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//xzyshd.com$$$proxy$$$1"},
+		{"key":"Wogg","name":"玩偶哥哥|网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://wogg.link/$$$noproxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/wogg.json"},
+		{"key":"Wo4k","name":"玩偶4K|磁力","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/wogg.json"},
+		{"key":"Wobg","name":"玩偶表哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/wogg.json"},
+		{"key":"yydsys","name":"玩你老哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/wogg.json"},
+		{"key":"Gaoqing","name":"中国高清网|网盘","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
+		{"key":"Yinfans","name":"音范丝|磁力","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
+		{"key":"ddys","name":"低端影视|网盘","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
+		{"key":"Xinshijue","name":"新视觉|网盘","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.80yy3.com/$$$noproxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/wogg.json"},
+		{"key":"团长资源","name":"团长资源|网盘","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$noproxy$$$1"},
+		{"key":"Moli","name":"HDmoli|网盘","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/moli.json"},
+		{"key":"Hdhive","name":"影巢|网盘","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$proxy$$$1"},
+		{"key":"Ppxzy","name":"皮皮虾|网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://ppxzy.ink$$$proxy$$$1"},
+		{"key":"校长影视","name":"校长影视|网盘","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://xzyshd.com$$$proxy$$$1"},
 		{
 			"key": "Bdys_spider",
 			"name": "哔滴┃磁力",
@@ -158,77 +158,77 @@
 			"quickSearch": 1,
 			"searchable": 1,
 			"timeout":60,
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.yjys01.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$proxy$$$1"
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.yjys01.com/$$$proxy$$$1"
 		},
-		{"key":"YunPan","name":"云盘资源|网盘","type":3,"api":"csp_YunPan","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$null$$$proxy$$$1"},
-		{"key":"YingSo","name":"影搜|网盘搜索","type":3,"api":"csp_YingSo","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json"},
-		{"key":"混合盘","name":"混合盘|网盘搜索","type":3,"api":"csp_HunHePan","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
+		{"key":"YunPan","name":"云盘资源|网盘","type":3,"api":"csp_YunPan","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$null$$$proxy$$$1"},
+		{"key":"YingSo","name":"影搜|网盘搜索","type":3,"api":"csp_YingSo","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json"},
+		{"key":"混合盘","name":"混合盘|网盘搜索","type":3,"api":"csp_HunHePan","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"88Pan","name":"88网盘|网盘搜索","type":3,"api":"csp_EightEight","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//662688.xyz$$$",
+		{"key":"88Pan","name":"88网盘|网盘搜索","type":3,"api":"csp_EightEight","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://662688.xyz$$$",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"PanSearch","name":"PanSearch|网盘搜索","type":3,"api":"csp_PanSearch","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$null$$$proxy"},
-		{"key":"盘友圈","name":"盘友圈|网盘搜索","type":3,"api":"csp_Panyq","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$site$$$proxy"},
-		{"key":"易搜","name":"易搜|网盘搜索","type":3,"api":"csp_YiSo","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/yiso.txt",
+		{"key":"PanSearch","name":"PanSearch|网盘搜索","type":3,"api":"csp_PanSearch","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$null$$$proxy"},
+		{"key":"盘友圈","name":"盘友圈|网盘搜索","type":3,"api":"csp_Panyq","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$site$$$proxy"},
+		{"key":"易搜","name":"易搜|网盘搜索","type":3,"api":"csp_YiSo","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/yiso.txt",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"秒搜","name":"秒搜|网盘搜索","type":3,"api":"csp_MiaoSou","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
+		{"key":"秒搜","name":"秒搜|网盘搜索","type":3,"api":"csp_MiaoSou","timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"Funletu","name":"趣盘搜|夸克搜索","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
+		{"key":"Funletu","name":"趣盘搜|夸克搜索","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"QuarkPanso","name":"夸克盘搜|夸克搜索","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
+		{"key":"QuarkPanso","name":"夸克盘搜|夸克搜索","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"Panta","name":"盘Ta|网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.91panta.chttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$null$$$1",
+		{"key":"Panta","name":"盘Ta|网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"DaPanSo","name":"大盘搜|网盘搜索","type":3,"api":"csp_DaPanSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//dapanso.com$$$proxy$$$1"},
-		{"key":"PikaSo","name":"皮卡搜|网盘搜索","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.pikaso.tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/$$$null",
+		{"key":"DaPanSo","name":"大盘搜|网盘搜索","type":3,"api":"csp_DaPanSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://dapanso.com$$$proxy$$$1"},
+		{"key":"PikaSo","name":"皮卡搜|网盘搜索","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.pikaso.top/$$$null",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"Qianfan","name":"千帆|网盘搜索","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//pan.qianfan.app$$$null$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/qianfan.txt$$$1"},
-		{"key":"YunSo","name":"小云搜索|网盘搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.yunso.net$$$null$$$1",
+		{"key":"Qianfan","name":"千帆|网盘搜索","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/qianfan.txt$$$1"},
+		{"key":"YunSo","name":"小云搜索|网盘搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"YunPanOne","name":"云盘One|网盘搜索","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$null$$$proxy$$$1"},
-		{"key":"XBPQ_文才","name":"文才|XBPQ","type":3,"api":"csp_XBPQ", "jar":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
+		{"key":"YunPanOne","name":"云盘One|网盘搜索","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$null$$$proxy$$$1"},
+		{"key":"XBPQ_文才","name":"文才|XBPQ","type":3,"api":"csp_XBPQ", "jar":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
 			"ext":{
 				"滤词": "",
 				"直接播放": "0",
-				"播放请求头":"User-Agent$Mozillhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/5.0 (Windows NT 10.0; Win64; x64) AppleWebKihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36 (KHTML, like Gecko) Chromhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/118.0.0.0 Safarhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad", 
+				"播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad", 
 				"首页": "90",
 				"起始页": "1",
-				"分类url":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//api.zeqaht.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ac=list&ac=detail&t={cateId}&pg={catePg};;rc",
+				"分类url":"https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg};;rc",
 				"分类": "电影&电视剧&动漫&综艺",
 				"分类值": "1&14&75&69",
 				"二次截取":"list\":\\[&&\\]",
@@ -236,15 +236,15 @@
 				"图片":"vod_pic\":\"&&\"",
 				"标题": "vod_name\":\"&&\"",
 				"副标题": "vod_remarks\":\"&&\"+_+vod_pubdate\":\"&&\"",
-				"链接": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.cfkj86.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/detaihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/+vod_id\":&&,",
+				"链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
 				"线路二次截取":"",
-				"线路数组":"span class=\"label\">&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/span>",
+				"线路数组":"span class=\"label\">&&/span>",
 				"线路标题":"文才",
-				"播放数组":"episodeList\":\\[&&\\][替换:nid\":>>nid\"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/]",
+				"播放数组":"episodeList\":\\[&&\\][替换:nid\":>>nid\":/1/]",
 				"播放列表":"{&&}",
 				"播放标题":"name\":\"&&\"",
-				"播放请求头": "User-Agent$Mozillhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/5.0 (Linux; Android 12; TAS-AL00 Builhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/HUAWEITAS-AL00; wv) AppleWebKihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36 (KHTML, like Gecko) Versiohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/4.0 Chromhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/99.0.4844.88 Mobile Safarhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36#Referer$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.cfkj86.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/",
-				"播放链接前缀":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.cfkj86.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/plahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/+data\":{\"vodId\":&&,",
+				"播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 12; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36#Referer$https://m.cfkj86.com/",
+				"播放链接前缀":"https://m.cfkj86.com/vod/play/+data\":{\"vodId\":&&,",
 				"播放链接":"nid\":&&,",
 				"倒序":"0",
 				"跳转解析":"",
@@ -255,87 +255,87 @@
 				"导演": "vod_director\":\"&&\"",
 				"主演": "vod_actor\":\"&&\"",
 				"简介":"vod_content\":\"&&\"",
-				"搜索url":https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ac=detail&wd={wd}&pg={pg}",
+				"搜索url":"/api.php/provide/vod/?ac=detail&wd={wd}&pg={pg}",
 				"搜索模式":"1",
 				"搜索二次截取":"list\":\\[&&\\]",
 				"搜索数组":"{&&}[不包含:伦理]",
 				"搜索图片":"vod_pic\":\"&&\"",
 				"搜索标题": "vod_name\":\"&&\"",
 				"搜索副标题": "vod_remarks\":\"&&\"",
-				"搜索链接": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.cfkj86.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/detaihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/+vod_id\":&&,",
+				"搜索链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
 				"筛选": "1",
 				"类型": "喜剧$22#动作$23#战争$25#爱情$26#悬疑$27#武侠$28#科幻$30#冒险$31#警匪$32#动画$33#惊悚$34#犯罪$35#恐怖$36#剧情$37#历史$38#纪录$39#传记$40#歌舞$41||国产剧$14#欧美剧$15#港台剧$16#日韩剧$62#其他剧$68||国产动漫$75#日韩动漫$76#欧美动漫$77#港台动漫$78#其他动漫$80||国产综艺$69#港台综艺$70#日韩综艺$72#欧美综艺$73#其他综艺$74"
 				}
 		},
-		{"key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
+		{"key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
 			"ext": {
 				"站名": "黑狐影院",
-				"主页url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//fagmn.com",
-				"数组": "class=\"stui-vodlist__box\"&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a",
+				"主页url": "http://fagmn.com",
+				"数组": "class=\"stui-vodlist__box\"&&</a",
 				"图片": "data-original=\"&&\"",
 				"标题": "title=\"&&\"",
 				"链接": "href=\"&&\"",
 				"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
-				"过滤词": https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/hlhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/#php",
-				"副标题": "<span class=\"pic-text text-right\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/span>",
-				"搜索url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//fagmn.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/search.php;post;searchword={wd}",
+				"过滤词": "/hls/#php",
+				"副标题": "<span class=\"pic-text text-right\">&&</span>",
+				"搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
 				"搜索模式": "1",
-				"搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a>",
+				"搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
 				"搜索图片": "data-original=\"&&\"",
 				"搜索标题": "title=\"&&\"",
 				"搜索链接": "href=\"&&\"",
-				"搜索副标题": "<span class=\"pic-text text-right\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/span>",
-				"搜索后缀": https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/viehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/",
-				"线路数组": "href=\"#down&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
+				"搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+				"搜索后缀": "/view/",
+				"线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
 				"线路标题": ">&&<",
-				"播放数组": "class=\"stui-content__playlist clearfix&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/ul>",
-				"状态": "地区：&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>",
-				"导演": "导演：&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>",
-				"主演": "主演：&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>",
-				"简介": "简介：&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>",
-				"播放列表": "<a&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a>",
+				"播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
+				"状态": "地区：&&</p>",
+				"导演": "导演：&&</p>",
+				"主演": "主演：&&</p>",
+				"简介": "简介：&&</div>",
+				"播放列表": "<a&&/a>",
 				"播放标题": ">&&<",
 				"播放链接": "href=\"&&\"",
 				"免嗅": "0",
 				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-				"分类url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//fagmn.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lishttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateId}_{catePg}.html?order=time"
+				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
 			}
 		},
 		{
 			"key":"XBPQ_电影先生",
 			"name": "电影先生|XBPQ",
-			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
+			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"ext": {
-				"分类url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//dianyi.nhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/pianku-{cateId}-{area}-------{catePg}---{year}.html",
-				"简介": "class=\"video-info-item video-info-content vod_content\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/span>",
-				"搜索url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//dianyi.nhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/search--------------.html?wd={wd}",
-				"搜索数组": "<div class=\"module-item-pic\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>",
+				"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+				"简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
+				"搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
+				"搜索数组": "<div class=\"module-item-pic\">&&</div>",
 				"图片": "src=\"&&\"",
 				"搜索标题": "title=\"&&\"",
-				"搜索副标题": ">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a>",
-				"线路数组": "data-dropdown-value=&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>",
-				"线路标题": "<span>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/small>[替换:<span>https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/small>共]+集",
-				"播放数组": "<div class=\"scroll-content\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>",
-				"播放标题": "<span>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/span>",
+				"搜索副标题": ">&&</a>",
+				"线路数组": "data-dropdown-value=&&</div>",
+				"线路标题": "<span>&&</small>[替换:<span></small>共]+集",
+				"播放数组": "<div class=\"scroll-content\">&&</div>",
+				"播放标题": "<span>&&</span>",
 				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
 			}
 		},
-		{"key": "XBPQ_麻衣影院","name":"麻衣影院|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
-			"ext": {"分类url":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.huanyuxing.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateIdhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/arehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{areahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/clashttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{classhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/paghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{catePghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/yeahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
+		{"key": "XBPQ_麻衣影院","name":"麻衣影院|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
+			"ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
 		},
 		{
 			"key": "迅雷8",
 			"name": "迅雷吧|XBPQ|磁力",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
+			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
 			"ext": {
-				"播放数组": "copylink&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a>",
+				"播放数组": "copylink&&</a>",
 				"播放链接": "alt=\"&&\"",
-				"简介": "b1f40f7888\"&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>",
-				"分类url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//xunlei8.chttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateId}-{class}-{year}-{area}-hot-{catePg}-30.html",
+				"简介": "b1f40f7888\"&&</p>",
+				"分类url": "https://xunlei8.cc/{cateId}-{class}-{year}-{area}-hot-{catePg}-30.html",
 				"分类": "电视剧$tv#电影$list"
 			}
 		},
@@ -345,19 +345,19 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			
-			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
+			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
 			"ext": {
-				"主页url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.xbw20.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/",
+				"主页url": "https://www.xbw20.com/",
 				"编码": "gb2312",
 				"图片": "data-src=\"&&\"",
 				"标题": "alt=\"&&\"",
-				"副标题":"class=\"time\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/label",
-				"分类url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.xbw20.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/search.asp?page={catePg}&searchword={area}&searchtype=2[httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.xbw20.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateId}.html]",
+				"副标题":"class=\"time\">&&</label",
+				"分类url": "https://www.xbw20.com/search.asp?page={catePg}&searchword={area}&searchtype=2[https://www.xbw20.com/vod/{cateId}.html]",
 				"分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
 				"起始页": 2,
 				"倒序": 1,
-				"播放数组": "迅雷下载https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>",
-				"播放列表": "<a&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/a >"
+				"播放数组": "迅雷下载</div>&&</div>",
+				"播放列表": "<a&&</a >"
 			}
 		},
 		{
@@ -368,8 +368,8 @@
 			"searchable":1,
 			"quickSearch":1,
 			"filterable":1,
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/bttt.json",
-			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar"
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/bttt.json",
+			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar"
 		},
 		{"key":"布谷tv",
 			"name":"🐦布谷|4K磁力|XBPQ",
@@ -378,18 +378,18 @@
 			"searchable":1,
 			"quickSearch":1,
 			"filterable":1,
-			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar",
+			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar",
 			"ext":{
-				"搜索链接":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.bugutv.orhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?cat=&s={wd}",
-				"简介":"◎简*介https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>",
+				"搜索链接":"https://www.bugutv.org/?cat=&s={wd}",
+				"简介":"◎简*介</p>&&</p>",
 				"线路数组":"entry-content u-text-format u-clearfix&&\"content-template",
 				"线路标题":"磁力",
 				"播放数组": "entry-content u-text-format u-clearfix&&content-template[不包含:网盘]",
-				"播放列表":"<p>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/p>[包含:magnet]",
-				"分类":"4KUHD电影$4kuhd#4K电影$4kmovie#4K剧集$4ktv#杜比视界$dolbyvision#4K纪录片$4kdocu#4K演示片$4kdemhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/4ktv-4ktv#杜比演示片$4kdemhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dolbydomo#DTS演示片$4kdemhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dtsdomo#8K演示片$4kdemhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/8kdemo#蓝光电影$bluraymovihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/bluray-movie#蓝光剧集$bluraymovihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/bluraytv#3D蓝光$bluraymovihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/3dmovie#蓝光纪录片$bluraymovihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/documentary#蓝光演唱会$bluraymovihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/audiotest",
-				"分类链接":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.bugutv.orhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateIdhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/paghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{catePg}",
-				"搜索链接": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.bugutv.orhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?cat=&s={wd}",
-				"搜索数组": "class=\"entry-media\">&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div"
+				"播放列表":"<p>&&</p>[包含:magnet]",
+				"分类":"4KUHD电影$4kuhd#4K电影$4kmovie#4K剧集$4ktv#杜比视界$dolbyvision#4K纪录片$4kdocu#4K演示片$4kdemo/4ktv-4ktv#杜比演示片$4kdemo/dolbydomo#DTS演示片$4kdemo/dtsdomo#8K演示片$4kdemo/8kdemo#蓝光电影$bluraymovie/bluray-movie#蓝光剧集$bluraymovie/bluraytv#3D蓝光$bluraymovie/3dmovie#蓝光纪录片$bluraymovie/documentary#蓝光演唱会$bluraymovie/audiotest",
+				"分类链接":"https://www.bugutv.org/{cateId}/page/{catePg}",
+				"搜索链接": "https://www.bugutv.org/?cat=&s={wd}",
+				"搜索数组": "class=\"entry-media\">&&</div"
 			}
 		},
 		{
@@ -401,16 +401,16 @@
 			"quickSearch":1,
 			"filterable":1,
 			"ext": {
-				"主页url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.haokongbu.tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/",
-				"分类url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.haokongbu.tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateIdhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/index_{catePg}.html[httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//m.haokongbu.tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{cateIdhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/index.html]",
+				"主页url": "https://m.haokongbu.top/",
+				"分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
 				"分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",
-				"副标题": "class=\"typeset\"&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/i>",
+				"副标题": "class=\"typeset\"&&</i>",
 				"起始页": 2,
 				"倒序": 1,
-				"播放数组": "下载地址https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/h2>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/ul>[不包含:网盘]",
-				"播放列表":"<ul>&&https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/div>[包含:magnet]"
+				"播放数组": "下载地址</h2>&&</ul>[不包含:网盘]",
+				"播放列表":"<ul>&&</div>[包含:magnet]"
 			},
-			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/XBPQ.jar"
+			"jar": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/XBPQ.jar"
 		},
 		{
 			"key": "NanGua",
@@ -429,21 +429,21 @@
 			"searchable": 1,
 			"changeable": 1,
 			"timeout": 60,
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.66ss.org$$$null$$$1"
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
 		},
 		{
 			"key": "天天",
 			"name": "天天┃App",
 			"type": 3,
 			"api": "csp_TTian",
-			"ext": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//op.ysdqjs.cn$$$null$$$1"
+			"ext": "http://op.ysdqjs.cn$$$null$$$1"
 		},
 		{
 			"key": "追剧",
 			"name": "追剧┃App",
 			"type": 3,
 			"api": "csp_TTian",
-			"ext": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//app.kzjtv.com$$$null$$$1"
+			"ext": "http://app.kzjtv.com$$$null$$$1"
 		},
 		{
 			"key": "賤賤",
@@ -452,14 +452,14 @@
 			"api": "csp_Jianpian",
 			"searchable": 1,
 			"changeable": 1,
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jianpian.json$$$1",
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/jianpian.json$$$1",
 			"timeout":60
 		},
 		{
 			"key": "索尼资源",
 			"name": "索尼┃资源",
 			"type": 1,
-			"api": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//suoniapi.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/frohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/snm3uhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/",
+			"api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
 			"categories": [
 				"动作片",
 				"喜剧片",
@@ -498,26 +498,26 @@
 			"searchable": 1,
 			"quickSearch": 1
 		},
-		{"key":"drpy_js_愛盤搜","name":"爱盘搜[js]|夸","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
+		{"key":"drpy_js_愛盤搜","name":"爱盘搜[js]|夸","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"drpy_js_人人影视","name":"人人影视[js]|搜","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/yyets.js", "quickSearch":1, "changeable":1, "timeout":60,
+		{"key":"drpy_js_人人影视","name":"人人影视[js]|搜","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/yyets.js", "quickSearch":1, "changeable":1, "timeout":60,
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"drpy_js_MP4US","name":"MP4电影[js]|磁","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/mp4us.js", "quickSearch":1, "changeable":1, "timeout":60},
-		{"key":"4KHDR","name":"4KHDR|网盘","type":3,"api":"csp_FourKHDR","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/4khdr.txt$$$1",
+		{"key":"drpy_js_MP4US","name":"MP4电影[js]|磁","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/mp4us.js", "quickSearch":1, "changeable":1, "timeout":60},
+		{"key":"4KHDR","name":"4KHDR|网盘","type":3,"api":"csp_FourKHDR","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json$$$https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/4khdr.txt$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"UP云搜","name":"阿里|UP云搜","type":3,"api":"csp_UpYun","timeout":30, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json",
+		{"key":"UP云搜","name":"阿里|UP云搜","type":3,"api":"csp_UpYun","timeout":30, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -531,11 +531,11 @@
 			"searchable": 1,
 			"changeable": 0
 		},
-		{"key":"drpy_js_酷吧","name":"酷吧[js]|磁","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/kuba.js", "quickSearch":1, "changeable":1, "timeout":60},
+		{"key":"drpy_js_酷吧","name":"酷吧[js]|磁","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/drpy2.min.js","ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/kuba.js", "quickSearch":1, "changeable":1, "timeout":60},
 		{"key":"BLSGod","name":"BLSGod|磁","type":3,"api":"csp_BLSGod","changeable":1, "timeout":60},
 		{"key":"Xunlei8","name":"Xunlei8|磁","type":3,"api":"csp_Xunlei8","changeable":1, "timeout":60},
 		{"key":"SeedHub","name":"SeedHub|磁","type":3,"api":"csp_SeedHub","changeable":1, "timeout":60},
-		{"key":"AList","name":"网盘|Alist[jar]","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/alistjar.json"},
+		{"key":"AList","name":"网盘|Alist[jar]","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/alistjar.json"},
 		{
 			"key": "快看",
 			"name": "快看",
@@ -546,7 +546,7 @@
 			"changeable": 0,
 			"filterable": 1
 		},
-		{ "key": "Ikanbot", "name": "爱看机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//v.aikanbot.com$$$proxy"},
+		{ "key": "Ikanbot", "name": "爱看机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.aikanbot.com$$$proxy"},
 		{ "key":"csp_YingShi","name":"影视|海外","type":3,"api":"csp_YingShi","ext":"proxy"},
 		{ 
 			"key": "泥巴", 
@@ -574,14 +574,14 @@
 			"api": "csp_XPathMacFilter",
 			"searchable": 1,
 			"changeable": 0,
-			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/duboku.json$$$proxy"
+			"ext": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/duboku.json$$$proxy"
 		},
 		{
 			"key": "haiwaikan",
 			"name": "海外看",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//haiwaikan.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vod?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://haiwaikan.com/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"searchable": 1,
 			"changeable": 1,
 			"categories": [
@@ -623,8 +623,8 @@
 			"key": "ikun",
 			"name": "ikun",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//ikunzyapi.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType":1,
 			"searchable": 1,
 			"changeable": 1
@@ -633,8 +633,8 @@
 			"key": "飞速资源",
 			"name": "飞速资源",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//fszy1.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/http://fszy1.com/api.php/provide/vod/?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType":1,
 			"searchable": 1,
 			"changeable": 1
@@ -643,8 +643,8 @@
 			"key": "暴風",
 			"name": "暴風",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//bfzyapi.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vod?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -652,8 +652,8 @@
 			"key": "索尼",
 			"name": "索尼 ",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//suoniapi.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vod?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -661,8 +661,8 @@
 			"key": "快帆",
 			"name": "快帆",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//api.kuaifan.thttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vod?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://api.kuaifan.tv/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -670,8 +670,8 @@
 			"key": "量子",
 			"name": "量子",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//cj.lziapi.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType":1,
 			"searchable": 1,
 			"changeable": 1
@@ -680,8 +680,8 @@
 			"key": "非凡",
 			"name": "非凡",
 			"type": 1,
-			"api": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//cj.ffzyapi.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.phhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/providhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?",
-			"playUrl": "json:httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/parshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?thread=0&proxy=proxy&url=",
+			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType":1,
 			"searchable": 1,
 			"changeable": 1,
@@ -745,7 +745,7 @@
 			"key": "愛看",
 			"name": "愛看",
 			"type": 3,
-			"api": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/ikanbot_open.js",
+			"api": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/ikanbot_open.js",
 			"searchable": 1,
 			"changeable": 0
 		},
@@ -756,14 +756,14 @@
 			"api": "csp_Duanju",
 			"searchable": 0,
 			"changeable": 1,
-			"ext":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.duanjutv.icu"
+			"ext":"https://www.duanjutv.icu"
 		},
-		{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/alist.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/alist.json"},
+		{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/alist.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/js/alist.json"},
 		{
 			"key":"MV_vod",
 			"name":"电视┃MTV",
 			"type":1,
-			"api": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//mv.wogg.linhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/mhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/vod",
+			"api": "https://mv.wogg.link/mv/vod",
 			"searchable": 1,
 			"quickSearch": 0,
 			"changeable": 0
@@ -792,7 +792,7 @@
 			"searchable": 1,
 			"changeable": 0
 		},
-		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tokenm.json"},
+		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/tokenm.json"},
 		{
 			"key": "應用商店",
 			"name": "應用商店",
@@ -800,85 +800,85 @@
 			"api": "csp_Market",
 			"searchable": 0,
 			"changeable": 0,
-			"ext": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//fm.t4tv.hz.chttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jsohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/market.json"
+			"ext": "https://fm.t4tv.hz.cz/json/market.json"
 		}],
 		"lives":[
 			{
 				"name": "live.ipv6",
 				"type": 0,
-				"url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//fanmingming.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/txt?url=httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//live.fanmingming.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/thttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/m3https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/ipv6.m3u",
+				"url": "http://127.0.0.1:10079/p/0/proxy/https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 				
-				"ua": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/3.15",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png"
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
 				"name": "live.ipv6.m3u",
 				"type": 0,
-				"url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//live.fanmingming.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/thttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/m3https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/ipv6.m3u",
+				"url": "http://127.0.0.1:10079/p/0/proxy/https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 				
-				"ua": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/3.15",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png"
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
 				"name": "live.ipv6.local",
 				"type": 0,
-				"url": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/live.ipv6.txt",
+				"url": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/live.ipv6.txt",
 				
-				"ua": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/3.15",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png"
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
 				"name": "live.fan",
 				"type": 0,
-				"url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//raw.githubusercontent.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dxawhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/maihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tvlive.txt",
+				"url": "http://127.0.0.1:10079/p/0/proxy/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
 				
-				"ua": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/3.15",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png"
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
 				"name": "YTLive",
 				"type": 0,
 				
-				"url": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/yo21.txt"
+				"url": "https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lib/yo21.txt"
 			},
 			{
 				"name": "直播",
 				"type": 0,
 				
-				"url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//agit.ahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/Yoursmilehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/TVBohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/rahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/branchttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/mastehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/live.txt",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png"
+				"url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
 				"name": "TXT",
 				"type": 0,
 				
-				"url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//home.jundie.top:8https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/Cahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/thttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/live.txt",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png",
-				"ua": "Mozillhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/5.0 (Windows NT 10.0; Win64; x64) AppleWebKihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36 (KHTML, like Gecko) Chromhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/108.0.0.0 Safarhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36"
+				"url": "http://home.jundie.top:81/Cat/tv/live.txt",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 			},
 			{
 				"name": "Json",
 				"type": 1,
 				
-				"url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//raw.githubusercontent.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/FongMhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/CatVodSpidehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/maihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/jsohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/live.json",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png",
-				"ua": "Mozillhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/5.0 (Windows NT 10.0; Win64; x64) AppleWebKihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36 (KHTML, like Gecko) Chromhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/108.0.0.0 Safarhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/537.36"
+				"url": "http://127.0.0.1:10079/p/0/proxy/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 			},
 			{
 				"name": "live.feimao",
 				"type": 0,
 				
-				"url": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//我不是.肥猫.livhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/Thttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tvzb.txt",
-				"ua": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/3.12.13",
-				"epg": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?ch={name}&date={date}",
-				"logo": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//127.0.0.1:1007https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/proxhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//epg.112114.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/loghttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/{name}.png"
+				"url": "http://127.0.0.1:10079/p/0/proxy/http://我不是.肥猫.live/TV/tvzb.txt",
+				"ua": "okhttp/3.12.13",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
 				"group":"redirect",
@@ -886,7 +886,7 @@
 					{
 						"name":"redirect",
 						"urls":[
-							"proxyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//do=live&type=live&proxy=&url="
+							"proxy://do=live&type=live&proxy=&url="
 						]
 					}
 				]
@@ -895,7 +895,7 @@
 		"doh": [
 			{
 				"name": "Google",
-				"url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//dns.googlhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dns-query",
+				"url": "https://dns.google/dns-query",
 				"ips": [
 					"8.8.4.4",
 					"8.8.8.8"
@@ -903,7 +903,7 @@
 			},
 			{
 				"name": "Cloudflare",
-				"url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//cloudflare-dns.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dns-query",
+				"url": "https://cloudflare-dns.com/dns-query",
 				"ips": [
 					"1.1.1.1",
 					"1.0.0.1",
@@ -913,7 +913,7 @@
 			},
 			{
 				"name": "AdGuard",
-				"url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//dns.adguard.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dns-query",
+				"url": "https://dns.adguard.com/dns-query",
 				"ips": [
 					"94.140.14.140",
 					"94.140.14.141"
@@ -921,7 +921,7 @@
 			},
 			{
 				"name": "DNSWatch",
-				"url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//resolver2.dns.watchttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dns-query",
+				"url": "https://resolver2.dns.watch/dns-query",
 				"ips": [
 					"84.200.69.80",
 					"84.200.70.40"
@@ -929,7 +929,7 @@
 			},
 			{
 				"name": "Quad9",
-				"url": "httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//dns.quad9.nehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/dns-quer",
+				"url": "https://dns.quad9.net/dns-quer",
 				"ips": [
 					"9.9.9.9",
 					"149.112.112.112"
@@ -957,14 +957,14 @@
 					".*ulivetv.*"
 				]
 			},
-			{"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com",https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/itehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/videhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/"],"filter":[]},
+			{"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
 			{"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="],"filter":[]},
-			{"host":"www.sharenice.net","rule":["douyin.com",https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/plahttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/"]},
+			{"host":"www.sharenice.net","rule":["douyin.com","/play/"]},
 			{"host":"m.ysxs8.vip","rule":["ysting.ysxs8.vip:81","xmcdn.com"],"filter":[]},
-			{"host":"hdmoli.com","rule":[".m3u8"]},{"host":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//api.live.bilibili.com","rule":["bilivideo.com",https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/index.m3u8"],"filter":["data.bilibili.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/lohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/web","i0.hdslb.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/bfhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/livhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/"]},
-			{"host":"www.agemys.cc","rule":["cdn-tos","obhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tos-cn"]},
-			{"host":"www.fun4k.com","rule":["httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//hd.ijycnd.cohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/play","index.m3u8"]},
-			{"host":"zjmiao.com","rule":["play.videomiao.vihttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/API.php","time=","key=","path="]},
+			{"host":"hdmoli.com","rule":[".m3u8"]},{"host":"https://api.live.bilibili.com","rule":["bilivideo.com","/index.m3u8"],"filter":["data.bilibili.com/log/web","i0.hdslb.com/bfs/live/"]},
+			{"host":"www.agemys.cc","rule":["cdn-tos","obj/tos-cn"]},
+			{"host":"www.fun4k.com","rule":["https://hd.ijycnd.com/play","index.m3u8"]},
+			{"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]},
 			{
 				"name": "火山嗅探",
 				"hosts": [
@@ -989,7 +989,7 @@
 					"toutiaovod.com"
 				],
 				"regex": [
-					"videhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/cn"
+					"video/tos/cn"
 				]
 			},
 			{
@@ -1049,7 +1049,7 @@
 			{
 				"name":"看看",
 				"type":0,
-				"url":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//jx.m3u8.phttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?url=",
+				"url":"https://jx.m3u8.pw/?url=",
 				"ext": {
 					"flag": [
 						"qq",
@@ -1072,14 +1072,14 @@
 						"哔哩"
 					],
 					"header": {
-						"User-Agent": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/4.1.0"
+						"User-Agent": "okhttp/4.1.0"
 					}
 				}
 			},
 			{
 				"name":"FreeOK",
 				"type":0,
-				"url":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//play.86516.thttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/OKPlayehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?url=",
+				"url":"https://play.86516.tk/OKPlayer/?url=",
 				"ext": {
 					"flag": [
 						"qq",
@@ -1102,14 +1102,14 @@
 						"哔哩"
 					],
 					"header": {
-						"User-Agent": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/4.1.0"
+						"User-Agent": "okhttp/4.1.0"
 					}
 				}
 			},
 			{
 				"name":"free",
 				"type":0,
-				"url":"httpshttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//h5.freejson.xyhttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/playehttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/?url=",
+				"url":"https://h5.freejson.xyz/player/?url=",
 				"ext": {
 					"flag": [
 						"qq",
@@ -1132,12 +1132,12 @@
 						"哔哩"
 					],
 					"header": {
-						"User-Agent": "okhtthttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/4.1.0"
+						"User-Agent": "okhttp/4.1.0"
 					}
 				}
 			}
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
-		"wallpaper": "httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//饭太硬.tohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/深色壁https://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/api.php",
-		"disabled_wallpaper":"httphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn//www.kf666888.chttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/aphttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/tvbohttps://github.hipjs.cf/https://raw.githubusercontent.com/kinshupoon/gao/main/pgn/img"
+		"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img"
 }
